@@ -1,6 +1,6 @@
 FROM alpine
 
-ENV DOCKERNAME="your-docker-v2ray-name"
+ENV DOCKERNAME="v20201020-1"
 
 RUN apk update && \
     apk add --no-cache bash curl fping docker && \
